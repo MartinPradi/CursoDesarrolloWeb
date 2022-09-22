@@ -15,27 +15,20 @@
 }
 
 
-nav {
-    padding: 40px;
+.navbar {
+    padding: 10px;
     margin: 10px;
-    background-color:#ffffffc1;
+    background-color:#fff5ec;
     display: flex;
     align-items: center;
 
 }
 
-.navList {
-    list-style: none;
-    margin-left: 58vw;
-    margin-right: 0px;
-
+.navbar img{
+    width:40px;
 }
 
-.navList li {
-    display: inline;
-   
 
-}
 
 a {
     text-decoration: none;
@@ -68,7 +61,12 @@ a {
 
 }
 
-
+.inicionos p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    
+}
 
 
 .imgPrin {
@@ -102,26 +100,10 @@ a {
 }
 
 
-.card{
-    background-color: rgba(255, 235, 205, 0.642);
-    width: 300px;
-    border: 1px solid rgba(255, 235, 205, 0.856);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-}
 img{
     border-radius: 10px;
 }
 
-.items{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: black;
-}
 
 .conteinerhome{
     width: auto;
@@ -157,7 +139,21 @@ img{
     transform: (-50%, -50%);
 }
 
+.card{
+    background-color: #f2e5d9dd;
+    border-radius: 15px;
+    align-items: center;
+    width: 340px;
+    height: auto;
+}
 
+.card img{
+    border-radius: 15px;
+}
+
+.jeje{
+    gap: 10px;
+}
 .conteiner-form {
     display: grid;
     padding: 30px;
@@ -175,15 +171,6 @@ img{
     
 }
 
-.grid-conteiner{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    justify-items: center;
-    row-gap: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 .maps{
     display: flex;
@@ -214,3 +201,17 @@ footer {
 }
 
 
+@media(min-width: 576px) and (max-width: 767px) {
+    
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    
+
+}
+
+@media(min-width: 992px) {
+    
+
+}
