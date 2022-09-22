@@ -177,13 +177,13 @@ img{
 
 .maps{
     display: flex;
-    justify-content: center;
     background-color:#fafafa;
     padding: 20px;
     width: fit-content;
     border-radius: 15px;
     margin-bottom: 15px;
 }
+
 .infocont{
     background-color: #fafafa;
     padding: 20px;
@@ -214,40 +214,13 @@ img{
  color: rgba(0, 0, 0, 0.746); 
 }
 
-/* @media(min-width: 576px) and (max-width: 767px) {
- 
-    .conteinerhome{
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        position: relative;
-        
-    }
-    .conteinerhome p{
-        font-size: 3rem;
-        font-family:sans-serif;
-        color: white;
-        position: absolute;
-        text-shadow: 0 0 8px rgba(0,0, 0, 0.8);
-        top: 28%;
-        left: 20%;
-        transform: (-50%, -50%);
-    }
-    .conteinerhome button{
-        position: absolute;
-        top: 52%;
-        left: 41%;
-        transform: (-50%, -50%);
-    }
-   
-} */
-
-@media(min-width: 768px) and (max-width: 991px) {
+@media(min-width: 576px) and (max-width: 767px) {
+  
     
-
+   
 }
 
-@media(min-width: 992px) {
+@media(min-width: 768px) and (max-width: 991px) {
     
 
 }
