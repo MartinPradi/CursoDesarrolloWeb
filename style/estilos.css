@@ -68,9 +68,10 @@
 }
 
 .inicionos p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    color: black;
+    color: whitesmoke;
+    background-color: burlywood;
     
 }
 
@@ -88,22 +89,14 @@
     margin-bottom: 10px;
 }
 
-.imgUno {
-    width: 50%;
-    height: auto;
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: auto;
+.imgInicioNos{
+    display: flex;
+    justify-content: center;
+    background-color: #f1e6d4;
 }
 
-.imgDos {
-    width: 50%;
-    height: auto;
-    border: 10px;
-    margin-left: 250px;
-    margin-top: 20px;
-    margin-bottom: auto;
-}
+
+
 
 
 img{
