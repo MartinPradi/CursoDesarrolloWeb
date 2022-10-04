@@ -1,34 +1,6 @@
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-.body {
-    background-image: url(../img/rei-verdefondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-
-.navbar {
-    padding: 15px;
-    margin: 10px;
-    background-color:#fff5ec;
-    display: flex;
-    align-items: center;
-
-}
-
-.navbar img{
-    width:40px;
-}
-
-
+@import "generales";
+@import "navbar";
+@import "footer";
 
 .inner{
     overflow: hidden;
@@ -60,7 +32,7 @@
     
 }
 
-.encabezadoh2{
+.cuerpocont h2{
     font-size: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #968575;
@@ -76,18 +48,18 @@
 }
 
 
-.imgPrin {
-    width: 100%;
-    height: auto;
-    margin-top: -800px;
+// .imgPrin {
+//     width: 100%;
+//     height: auto;
+//     margin-top: -800px;
 
-}
+// }
 
-.divImg {
-    height: 600px;
-    overflow: hidden;
-    margin-bottom: 10px;
-}
+// .divImg {
+//     height: 600px;
+//     overflow: hidden;
+//     margin-bottom: 10px;
+// }
 
 .imgInicioNos{
     display: flex;
@@ -95,13 +67,11 @@
     background-color: #f1e6d4;
 }
 
-
-
-
-
-img{
+.imgInicioNos img {
     border-radius: 10px;
 }
+
+
 
 
 .conteinerhome{
@@ -195,17 +165,9 @@ img{
     margin-left: 20px;
 }
 
-.myFooter{
- min-width: 100%;
- background-color: #f1e6d4; 
-}
 
-.redes svg {
- font-size: 30px;
- width: 30px;
- height: auto;
- color: rgba(0, 0, 0, 0.746); 
-}
+
+
 
 @media(min-width: 576px) and (max-width: 767px) {
   
