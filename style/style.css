@@ -26,7 +26,7 @@
 
 .myFooter {
   min-width: 100%;
-  background-color: #f1e6d4;
+  background-color: rgba(252, 251, 247, 0.9176470588);
 }
 .myFooter svg {
   font-size: 30px;
@@ -79,7 +79,6 @@
   justify-content: center;
   background-color: #f1e6d4;
 }
-
 .imgInicioNos img {
   border-radius: 10px;
 }
@@ -90,13 +89,11 @@
   overflow: hidden;
   position: relative;
 }
-
 .conteinerhome img {
   width: 100%;
   height: auto;
 }
-
-.conteinerhome p {
+.conteinerhome img p {
   font-size: 6rem;
   font-family: sans-serif;
   color: white;
@@ -106,8 +103,7 @@
   left: 26%;
   transform: -50%, -50%;
 }
-
-.conteinerhome button {
+.conteinerhome img p button {
   position: absolute;
   top: 48%;
   left: 47%;

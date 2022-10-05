@@ -65,14 +65,13 @@
     display: flex;
     justify-content: center;
     background-color: #f1e6d4;
+     
+    img {
+        border-radius: 10px;
+    
+    }
+
 }
-
-.imgInicioNos img {
-    border-radius: 10px;
-}
-
-
-
 
 .conteinerhome{
     width: 100%;
@@ -80,31 +79,35 @@
     overflow: hidden;
     position: relative;
     
-}
-
-.conteinerhome img{
-    width: 100%;
-    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+        
+        p {
+           font-size: 6rem;
+           font-family:sans-serif;
+           color: white;
+           position: absolute;
+           text-shadow: 0 0 8px rgba(0,0, 0, 0.8);
+           top: 28%;
+           left: 26%;
+           transform: (-50%, -50%);
+   
+ 
+           button{
+                position: absolute;
+                top: 48%;
+                left: 47%;
+                transform: (-50%, -50%);
+            
+            }
+        }
+    }    
     
+
 }
 
-.conteinerhome p{
-    font-size: 6rem;
-    font-family:sans-serif;
-    color: white;
-    position: absolute;
-    text-shadow: 0 0 8px rgba(0,0, 0, 0.8);
-    top: 28%;
-    left: 26%;
-    transform: (-50%, -50%);
-}
 
-.conteinerhome button{
-    position: absolute;
-    top: 48%;
-    left: 47%;
-    transform: (-50%, -50%);
-}
 
 .card{
     background-color: #f2e5d9dd;
