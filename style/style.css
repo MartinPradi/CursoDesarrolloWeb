@@ -93,7 +93,7 @@
   width: 100%;
   height: auto;
 }
-.conteinerhome img p {
+.conteinerhome p {
   font-size: 6rem;
   font-family: sans-serif;
   color: white;
@@ -103,7 +103,7 @@
   left: 26%;
   transform: -50%, -50%;
 }
-.conteinerhome img p button {
+.conteinerhome button {
   position: absolute;
   top: 48%;
   left: 47%;
@@ -118,7 +118,6 @@
   height: auto;
   margin: 10px;
 }
-
 .card img {
   border-radius: 15px;
 }
@@ -162,4 +161,17 @@
   justify-items: center;
   margin-bottom: 20px;
   margin-left: 20px;
+}
+
+.carrousel-home {
+  background-color: rgba(245, 237, 222, 0.589);
+}
+.carrousel-home p {
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: black;
+  background-color: #f1e6d4;
+  font-size: 3vh;
 }/*# sourceMappingURL=style.css.map */
