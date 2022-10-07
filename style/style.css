@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -53,12 +54,35 @@
 }
 
 .encabezados {
-  font-size: 90px;
+  font-size: 6vw;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
   color: rgb(255, 255, 255);
   background-image: url(../img/yerba\ banner.jpg);
+}
+
+.reseñas {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  margin-top: 10px;
+}
+.reseñas h2 {
+  font-size: 4vw;
+  padding: 10px;
+  border-color: black;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: black;
+}
+.reseñas p {
+  font-size: 3vw;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
 }
 
 .cuerpocont h2 {
@@ -67,20 +91,38 @@
   color: #968575;
 }
 
-.inicionos p {
+.inicio-nos {
+  background-color: blanchedalmond;
+  padding: 20px;
+}
+.inicio-nos h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  color: whitesmoke;
-  background-color: burlywood;
+}
+.inicio-nos p {
+  font-size: 1.3rem;
+  color: black;
 }
 
 .imgInicioNos {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
   background-color: #f1e6d4;
 }
 .imgInicioNos img {
   border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nos-final {
+  background-color: rgba(255, 235, 205, 0.776);
+}
+.nos-final h3 {
+  font-size: 6rem;
+}
+.nos-final p {
+  font-size: 1.3rem;
 }
 
 .conteinerhome {
@@ -88,26 +130,24 @@
   height: auto;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .conteinerhome img {
   width: 100%;
   height: auto;
 }
 .conteinerhome p {
-  font-size: 6rem;
+  font-size: 7vw;
   font-family: sans-serif;
   color: white;
   position: absolute;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
   top: 28%;
-  left: 26%;
-  transform: -50%, -50%;
 }
-.conteinerhome button {
+.conteinerhome a {
   position: absolute;
   top: 48%;
-  left: 47%;
-  transform: -50%, -50%;
 }
 
 .card {
@@ -173,5 +213,5 @@
           text-decoration: solid;
   color: black;
   background-color: #f1e6d4;
-  font-size: 3vh;
+  font-size: 2vw;
 }/*# sourceMappingURL=style.css.map */
