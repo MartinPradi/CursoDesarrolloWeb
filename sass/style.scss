@@ -1,6 +1,8 @@
 @import "generales";
 @import "navbar";
 @import "footer";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
 
 .inner {
   overflow: hidden;
@@ -29,22 +31,19 @@
 .reseñas {
   display: flex;
   justify-content: center;
-  background-color: aliceblue;
-  margin-top: 10px;
+  border: black solid;
+  background-color: #f1e6d4e4;
+  margin-top: 15px;
 
   h2 {
-    font-size: 4vw;
+    font-size: 5vw;
     padding: 10px;
-
-    border-color: black;
+    font-family: 'Crimson Text', serif;
     border-radius: 10px;
     margin-top: 10px;
-    color: black;
+    color: rgb(9, 9, 9);
   }
 
-  p {
-    font-size: 3vw;
-  }
 }
 
 .productos {
@@ -54,24 +53,22 @@
 
 .cuerpocont h2 {
   font-size: 40px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #968575;
 }
-
 
 .inicio-nos {
   background-color: blanchedalmond;
   padding: 20px;
 
   h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
   p {
     font-size: 1.3rem;
     color: black;
   }
-
 }
 
 .imgInicioNos {
@@ -87,16 +84,16 @@
   }
 }
 
-.nos-final{
-    background-color: rgba(255, 235, 205, 0.776);
+.nos-final {
+  background-color: rgba(255, 235, 205, 0.776);
 
-    h3{
-        font-size: 6rem;
-    }
+  h3 {
+    font-size: 6rem;
+  }
 
-    p{
-        font-size: 1.3rem;
-    }
+  p {
+    font-size: 1.3rem;
+  }
 }
 
 .conteinerhome {
@@ -114,7 +111,7 @@
 
   p {
     font-size: 7vw;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     position: absolute;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
@@ -135,7 +132,7 @@
   width: 340px;
   height: auto;
   margin: 10px;
-
+  font-family: 'Roboto', sans-serif;
   img {
     border-radius: 15px;
   }
@@ -146,21 +143,37 @@
   padding: 30px;
   background-color: rgba(255, 235, 205, 0.454);
   border-radius: 15px;
+
+  conteiner-contacto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+  }
 }
 
-.conteiner-contacto {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  row-gap: 10px;
+.inicio-ubi{
+ 
+  h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    color: #e0eca4;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+  }
 }
 
 .maps {
   display: flex;
   background-color: #fafafa;
   padding: 20px;
-  width: fit-content;
   border-radius: 15px;
   margin-bottom: 15px;
+  iframe{
+    justify-content: center;
+    width: 75vw;
+    height: 23vw;
+  }
 }
 
 .infocont {
@@ -193,8 +206,3 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-}
