@@ -1,22 +1,27 @@
 @import "generales";
 @import "navbar";
 @import "footer";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap");
+
+@mixin size($height,$width){
+  height: $height;
+  width: $width;
+}
 
 .inner {
   overflow: hidden;
-}
-.inner img {
-  transition: all 1.5s ease;
-}
-.inner:hover img {
-  transform: scale(1.5);
+
+  img {
+    transition: all 1.5s ease;
+  }
+  :hover img{
+    transform: scale(1.5);
+  }
 }
 
 .imglogo {
-  height: 80px;
-  width: 80px;
+ @include size(90px,90px);
 }
 
 .encabezados {
@@ -38,12 +43,11 @@
   h2 {
     font-size: 5vw;
     padding: 10px;
-    font-family: 'Crimson Text', serif;
+    font-family: "Crimson Text", serif;
     border-radius: 10px;
     margin-top: 10px;
     color: rgb(9, 9, 9);
   }
-
 }
 
 .productos {
@@ -53,7 +57,7 @@
 
 .cuerpocont h2 {
   font-size: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #968575;
 }
 
@@ -62,7 +66,7 @@
   padding: 20px;
 
   h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   p {
@@ -111,7 +115,7 @@
 
   p {
     font-size: 7vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: white;
     position: absolute;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
@@ -132,7 +136,7 @@
   width: 340px;
   height: auto;
   margin: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   img {
     border-radius: 15px;
   }
@@ -151,12 +155,11 @@
   }
 }
 
-.inicio-ubi{
- 
-  h2{
+.inicio-ubi {
+  h2 {
     display: flex;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 3vw;
     color: #e0eca4;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
@@ -169,7 +172,7 @@
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 15px;
-  iframe{
+  iframe {
     justify-content: center;
     width: 75vw;
     height: 23vw;
@@ -205,4 +208,3 @@
     font-size: 2vw;
   }
 }
-
