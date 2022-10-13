@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap");
 
-@mixin size($height,$width){
+@mixin size($height, $width) {
   height: $height;
   width: $width;
 }
@@ -12,16 +12,19 @@
 .inner {
   overflow: hidden;
 
-  img {
-    transition: all 1.5s ease;
-  }
-  :hover img{
-    transform: scale(1.5);
-  }
+
+ img {
+  transition: all 1.5s ease;
+}
+
+:hover {
+  transform: scale(1.5);
+}
+
 }
 
 .imglogo {
- @include size(90px,90px);
+  @include size(90px, 90px);
 }
 
 .encabezados {
