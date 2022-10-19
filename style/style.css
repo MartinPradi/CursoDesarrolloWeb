@@ -20,7 +20,7 @@
 .navbar {
   padding: 30px;
   margin-bottom: 7px;
-  background-color: #fff5ec;
+  background-color: #fcf6ef;
   display: flex;
   align-items: center;
 }
@@ -34,7 +34,7 @@
 
 .myFooter {
   min-width: 100%;
-  background-color: rgba(252, 251, 247, 0.9176470588);
+  background-color: #fcf6ef;
 }
 .myFooter svg {
   font-size: 30px;
@@ -59,7 +59,7 @@
 }
 
 .encabezados {
-  font-size: 6vw;
+  font-size: 7vw;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
@@ -71,7 +71,7 @@
   display: flex;
   justify-content: center;
   border: black solid;
-  background-color: rgba(241, 230, 212, 0.8941176471);
+  background-color: rgba(249, 244, 235, 0.8941176471);
   margin-top: 15px;
 }
 .reseñas h2 {
@@ -183,8 +183,8 @@
   justify-content: center;
   font-family: "Roboto", sans-serif;
   font-size: 3vw;
-  color: #e0eca4;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+  color: #fff5eb;
+  text-shadow: 0 0 8px rgb(0, 0, 0);
 }
 
 .maps {
@@ -193,6 +193,8 @@
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .maps iframe {
   justify-content: center;

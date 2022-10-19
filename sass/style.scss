@@ -28,7 +28,7 @@
 }
 
 .encabezados {
-  font-size: 6vw;
+  font-size: 7vw;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
@@ -40,7 +40,7 @@
   display: flex;
   justify-content: center;
   border: black solid;
-  background-color: #f1e6d4e4;
+  background-color: #f9f4ebe4;
   margin-top: 15px;
 
   h2 {
@@ -164,8 +164,8 @@
     justify-content: center;
     font-family: "Roboto", sans-serif;
     font-size: 3vw;
-    color: #e0eca4;
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+    color: #fff5eb;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 1.0);
   }
 }
 
@@ -175,6 +175,8 @@
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
   iframe {
     justify-content: center;
     width: 75vw;
