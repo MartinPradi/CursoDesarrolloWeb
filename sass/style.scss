@@ -3,6 +3,7 @@
 @import "footer";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
 @mixin size($height, $width) {
   height: $height;
@@ -26,7 +27,7 @@
 }
 
 .encabezados {
-  font-size: 7vw;
+  font-size: 100px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
@@ -77,9 +78,8 @@
     text-decoration: none;
     color: #976d45;
   }
-  
 }
-.conocenos-mas{
+.conocenos-mas {
   display: flex;
   justify-content: flex-end;
 }
@@ -145,18 +145,19 @@
   img {
     width: 100%;
     height: auto;
-  }
-  :before {
-    content: "";
-    width: 100%;
-    height: auto;
-    position: absolute;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
+
+    :before {
+      content: "";
+      width: 100%;
+      height: auto;
+      position: absolute;
+      background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
+    }
   }
 
   p {
     font-size: 7vw;
-    font-family: "Roboto", sans-serif;
+    font-family: "Yeseva One", cursive;
     color: white;
     position: absolute;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
@@ -166,7 +167,7 @@
   a {
     position: absolute;
     top: 45%;
-    // transform: (-50%, -50%);
+    
   }
 }
 
@@ -202,7 +203,7 @@
     justify-content: center;
     font-family: "Roboto", sans-serif;
     font-size: 3vw;
-    color: #eef742;
+    color: #ffed48;
     text-shadow: 0 0 8px rgb(0, 0, 0, 0.7);
   }
 }
